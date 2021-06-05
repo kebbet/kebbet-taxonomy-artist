@@ -77,7 +77,7 @@ function register() {
 	$capabilities = array(
 		'manage_terms' => 'manage_categories', // Previous 'manage_options'.
 		'edit_terms'   => 'manage_categories', // Previous 'manage_options'.
-		'delete_terms' => 'manage_options', // Previous 'manage_options'.
+		'delete_terms' => 'manage_categories', // Previous 'manage_options'.
 		'assign_terms' => 'manage_categories',
 	);
 
@@ -102,7 +102,6 @@ function register() {
 
 /**
  * Remove the 'slug' column from the table in 'edit-tags.php'
- * but only for the 'artist' taxonomy
  */
 function remove_column_slug( $columns ) {
     if ( isset( $columns['slug'] ) )
@@ -110,6 +109,10 @@ function remove_column_slug( $columns ) {
 
     return $columns;
 }
+
+/**
+ * Run filter only if constant says so.
+ */
 if ( true === HIDE_SLUG ) {
 	add_filter( 'manage_edit-' . TAXONOMY . '_columns', __NAMESPACE__ . '\remove_column_slug' );
 }
