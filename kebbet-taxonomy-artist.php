@@ -16,7 +16,7 @@
 namespace kebbet\taxonomy\artist;
 
 const TAXONOMY   = 'artist';
-const POST_TYPES = array( 'post' );
+const POST_TYPES = array( 'post', 'event-archive' );
 const HIDE_SLUG  = false;
 
 /**
