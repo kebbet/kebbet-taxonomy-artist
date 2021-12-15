@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kebbet plugins - custom taxonomy: artist\n"
-"POT-Creation-Date: 2021-08-09 10:18+0200\n"
-"PO-Revision-Date: 2021-08-09 10:22+0200\n"
+"POT-Creation-Date: 2021-12-15 10:33+0100\n"
+"PO-Revision-Date: 2021-12-15 10:34+0100\n"
 "Last-Translator: Erik Betshammar <info@verkan.se>\n"
 "Language-Team: Erik Betshammar <info@verkan.se>\n"
 "Language: da_DK\n"
@@ -16,86 +16,104 @@ msgstr ""
 "X-Poedit-WPHeader: kebbet-taxonomy-artist.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
-"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.min.js\n"
 
-#: kebbet-taxonomy-artist.php:57
+#: kebbet-taxonomy-artist.php:58
 msgctxt "taxonomy general name"
 msgid "Artists"
 msgstr "Kunstnere"
 
-#: kebbet-taxonomy-artist.php:58
+#: kebbet-taxonomy-artist.php:59
 msgid "Artists"
 msgstr "Kunstnere"
 
-#: kebbet-taxonomy-artist.php:59
+#: kebbet-taxonomy-artist.php:60
 msgctxt "taxonomy singular name"
 msgid "Artist"
 msgstr "Kunstner"
 
-#: kebbet-taxonomy-artist.php:60
+#: kebbet-taxonomy-artist.php:61
 msgid "All artist tags"
 msgstr "Alle kunstner-tags"
 
-#: kebbet-taxonomy-artist.php:61
+#: kebbet-taxonomy-artist.php:62
 msgid "Edit tag"
 msgstr "Rediger tag"
 
-#: kebbet-taxonomy-artist.php:62
+#: kebbet-taxonomy-artist.php:63
 msgid "View tag"
 msgstr "Vis tag"
 
-#: kebbet-taxonomy-artist.php:63
+#: kebbet-taxonomy-artist.php:64
 msgid "Update tag"
 msgstr "Opdater tag"
 
-#: kebbet-taxonomy-artist.php:64
+#: kebbet-taxonomy-artist.php:65
 msgid "Add new tag"
 msgstr "Tilføj nyt tag"
 
-#: kebbet-taxonomy-artist.php:65
+#: kebbet-taxonomy-artist.php:66
 msgid "New tag name"
 msgstr "Nyt tagnavn"
 
-#: kebbet-taxonomy-artist.php:66
+#: kebbet-taxonomy-artist.php:67
 msgid "Separate artist tags with commas"
 msgstr "Adskil kunstner-tags med kommaer"
 
-#: kebbet-taxonomy-artist.php:67
+#: kebbet-taxonomy-artist.php:68
 msgid "Search tags"
 msgstr "Søg tags"
 
-#: kebbet-taxonomy-artist.php:68
+#: kebbet-taxonomy-artist.php:69
 msgid "Add or remove tags"
 msgstr "Tilføj eller fjern tags"
 
-#: kebbet-taxonomy-artist.php:69
+#: kebbet-taxonomy-artist.php:70
 msgid "Choose from the most used artist tags"
 msgstr "Vælg mellem de mest anvendte kunstner-tags"
 
-#: kebbet-taxonomy-artist.php:70
+#: kebbet-taxonomy-artist.php:71
 msgid "No tags found."
 msgstr "Der blev ikke fundet nogen tags."
 
-#: kebbet-taxonomy-artist.php:71
+#: kebbet-taxonomy-artist.php:72
 msgid "Popular tags"
 msgstr "Populære tags"
 
-#: kebbet-taxonomy-artist.php:72
+#: kebbet-taxonomy-artist.php:73
 msgid "Parent tag"
 msgstr ""
 
-#: kebbet-taxonomy-artist.php:73
+#: kebbet-taxonomy-artist.php:74
 msgid "Parent tag:"
 msgstr ""
 
-#: kebbet-taxonomy-artist.php:74
+#: kebbet-taxonomy-artist.php:75
 msgid "&larr; Back to tags"
 msgstr "← Tilbage til tags"
 
-#: kebbet-taxonomy-artist.php:97
+#: kebbet-taxonomy-artist.php:76
+msgid "The name is how it appears on the site and in the user interface."
+msgstr "Navnet er, hvordan det ser ud på webstedet og brugergrænsefladen."
+
+#: kebbet-taxonomy-artist.php:77
+msgid ""
+"The &#8220;slug&#8221; is a sanitized version of the name. It is usually all "
+"lowercase and contains only letters, numbers, and hyphens. Do not change if "
+"not needed."
+msgstr ""
+"”Korttitel” er en desinficeret version af navnet. Den indeholder kun små "
+"bogstaver, tal og bindestreger. Du må ikke ændre, hvis det ikke er "
+"nødvendigt."
+
+#: kebbet-taxonomy-artist.php:78
+msgid "The description is not used for Dansehallerne."
+msgstr "Beskrivelsen bruges ikke til Dansehallerne."
+
+#: kebbet-taxonomy-artist.php:100
 msgid "Artist tag."
 msgstr "Kunstner tag."
 
@@ -109,7 +127,7 @@ msgstr "https://github.com/kebbet/kebbet-taxonomy-artist"
 
 #. Description of the plugin/theme
 msgid "Register the custom taxonomy artist"
-msgstr ""
+msgstr "Registrer det brugerdefinerede taksonomi: artist"
 
 #. Author of the plugin/theme
 msgid "Erik Betshammar"
